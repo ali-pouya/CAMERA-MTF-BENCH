@@ -1,0 +1,41 @@
+# I ignore Python bytecode and cache directories
+__pycache__/
+*.pyc
+*.pyo
+
+# I ignore build artifacts created by packaging tools
+build/
+dist/
+*.egg-info/
+
+# I keep virtual environments out of the repo
+.venv/
+env/
+venv/
+
+# I ignore OS-specific clutter
+.DS_Store
+Thumbs.db
+
+# I ignore editor/IDE settings that are local to my machine
+.vscode/
+.idea/
+
+# I avoid committing Jupyter checkpoints
+.ipynb_checkpoints/
+
+# I treat this as a scratch area for generated results and figures
+outputs/
+
+# I ignore generic logs
+*.log
+
+# I keep temporary scratch folders out of version control
+tmp/
+temp/
+scratch/
+
+# I usually do not track raw focus stacks by default.
+# If I decide to ship example stacks later, I will add explicit files.
+data/focus_stack/*
+!data/focus_stack/README.md

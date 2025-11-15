@@ -1,0 +1,40 @@
+# I use this file to define the core Python package metadata and the
+# minimal runtime dependencies for the Camera MTF Bench project.
+# For development, I keep extra tools (pytest, streamlit, etc.) pinned
+# in requirements.txt instead of here.
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "camera-mtf-bench"
+version = "0.1.0"
+description = "Automated camera MTF & autofocus bench"
+readme = "README.md"
+requires-python = ">=3.10"
+
+authors = [
+    { name = "A. Pouya", email = "example@example.com" }
+]
+
+dependencies = [
+    "numpy",
+    "scipy",
+    "opencv-python",
+    "matplotlib",
+    "pyvisa",
+]
+
+# If I later want to expose `bench` as a console command after
+# `pip install -e .`, I can uncomment this section and keep using
+# `bench.cli:main` as the entry point.
+#
+# [project.scripts]
+# bench = "bench.cli:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]

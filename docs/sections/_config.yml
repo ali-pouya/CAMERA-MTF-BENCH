@@ -1,0 +1,8 @@
+theme: minima
+title: Camera MTF Bench
+description: "Siemens-star MTF, manual focus tuning, and autofocus analysis toolkit."
+markdown: GFM
+
+# Optional: show repo link in the site header once the repo exists
+github:
+  is_project_page: true

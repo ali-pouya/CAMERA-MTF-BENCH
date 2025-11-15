@@ -1,0 +1,12 @@
+- file: index
+- file: section0_intro
+- file: section1_system_overview
+- file: section2_siemens_vs_edge
+- file: section3_autofocus_metrics
+- file: section4_optical_bench
+- file: section5_software_modules
+- file: section6_manual_focus
+- file: section7_cli
+- file: section8_advanced_optics
+- file: section9_roadmap
+- file: section10_appendix
