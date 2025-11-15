@@ -167,5 +167,7 @@ See **[LICENSE](LICENSE)**.
 
 See **[CONTRIBUTING.md](CONTRIBUTING.md)**.
 
+
 ## 👤 Ali Pouya
-Developd by Ali Pouya  
+Optical Engineer — Optics &amp; Metrology System Design.\
+GitHub: https://github.com/ali-pouya
