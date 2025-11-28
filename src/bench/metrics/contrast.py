@@ -6,7 +6,7 @@ I keep this module intentionally lightweight:
     - Two general-purpose focus metrics (Tenengrad and Laplacian variance).
     - A Siemens-specific metric that computes Tenengrad inside an annulus.
 
-Later, if I add wavelet-based metrics or frequency-domain sharpness scores,
+Later, if I add other metrics metrics such as frequency-domain sharpness scores,
 I will slot them into this module behind the same simple interface.
 """
 

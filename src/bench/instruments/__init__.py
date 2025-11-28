@@ -6,7 +6,7 @@ Defines abstract interfaces and mock implementations for:
 - Camera (image acquisition)
 - VISA-based instruments (scope, power meter) - later
 
-For now we only define Stage and Camera skeletons.
+For this implementation in here, I have only define Stage and Camera skeletons.
 """
 from .stage import MockStage, Stage
 from .camera import Camera, MockCameraFocusStack

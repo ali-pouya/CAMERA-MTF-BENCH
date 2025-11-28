@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Generate a synthetic, *symmetric* focus stack from a single sharp source image.
+Generating a synthetic, *symmetric* focus stack from a single sharp source image.
 
 Physical interpretation:
 - The middle frame corresponds to best focus (defocus sigma = 0).
@@ -30,7 +30,7 @@ def symmetric_gaussian_blur_stack(
     image: np.ndarray, frames: int, sigma_max: float
 ) -> tuple[list[np.ndarray], np.ndarray]:
     """
-    Create a list of images with blur sigma ranging from sigma_max at the ends
+    Creating a list of images with blur sigma ranging from sigma_max at the ends
     down to 0 at the center frame.
 
     For frames > 1:
