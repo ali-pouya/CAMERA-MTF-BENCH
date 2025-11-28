@@ -200,13 +200,10 @@ Ideal for manual tuning of prototypes and lens assemblies.
 
 ---
 
-## 📄 License
+## 📄 [License](LICENSE)
 
-See **[LICENSE](LICENSE)**.
 
-## 🤝 Contributing
-
-See **[CONTRIBUTING.md](CONTRIBUTING.md)**.
+## 🤝 [Contributing](CONTRIBUTING)
 
 
 ## 👤 Ali Pouya
