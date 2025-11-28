@@ -204,7 +204,7 @@ Ideal for manual tuning of prototypes and lens assemblies.
 
 ---
 
-## 🤝 [Contributing](CONTRIBUTING)
+## 🤝 [Contributing](CONTRIBUTING.md)
 
 ---
 
