@@ -202,9 +202,11 @@ Ideal for manual tuning of prototypes and lens assemblies.
 
 ## 📄 [License](LICENSE)
 
+---
 
 ## 🤝 [Contributing](CONTRIBUTING)
 
+---
 
 ## 👤 Ali Pouya
 Optical Engineer — Optics &amp; Metrology System Design.\
